@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+table.dataTable {
+  border: 2px solid #444;
+  margin-top:5px;
+  margin:auto;
+}
+table.dataTable tr{
+  border-bottom: 2px solid #444
+}
+
+table.dataTable td{
+  border-right: 1px solid #444;
+  border-bottom: 1px solid #444;
+  padding: 5px;
+}
